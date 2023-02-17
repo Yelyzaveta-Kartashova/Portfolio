@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R2</id>
+	<name>Sign Up Test Run 10/24/2022</name>
+	<description></description>
+	<config></config>
+	<createdon>2022-10-24T12:27:44Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>83</percent>
+			<count>19</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>17</percent>
+			<count>4</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>User Logged Out</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>user&apos;s avatar</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&apos;s name&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>My Posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Like&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Favorited Posts</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Popular Tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Sign In page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Need an account?&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Sign in&quot; button</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Sign Up page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Have an account?&quot;  link</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T32</id>
+				<title>Users can  be redirected to &quot;Sign In&quot; page by clicking on &quot;Have an account&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C14</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:31:45Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>&quot;Username&quot; field</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T33</id>
+				<title>Users can use Latin symbols in the &quot;Username&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C15</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:32:04Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T38</id>
+				<title>Users can use digit characters in the &quot;Username&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C20</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:32:26Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T34</id>
+				<title>Users can use both Upper and Lower register.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C16</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:32:30Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T35</id>
+				<title>Users can input 3-40 characters into &quot;Username&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C17</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:32:40Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T36</id>
+				<title>Users can&apos;t use special characters.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C18</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																														<defects>YK-4</defects>
+																<changes>
+															<change>
+						<createdon>2022-10-24T12:43:53Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment>There is no message that we can&apos;t use special characters.
+https://www.awesomescreenshot.com/image/33701405?key=30a757ef5e90f5d1a18b4b9f445d86db
+</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>YK-4</defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T37</id>
+				<title>Users can&apos;t use non-printing characters.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C19</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:46:10Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T39</id>
+				<title>Users can&apos;t sign up with empty field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C21</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:46:36Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T40</id>
+				<title>Users can Sign Up with email which is [name]@[domain].[top-domain].</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C22</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:47:06Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T42</id>
+				<title>Users can use Latin letters in the [name] part of the email.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C24</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:47:12Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T43</id>
+				<title>Users can use special characters: plus (+), hyphen (-), underline (_), dot (.)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C25</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:47:35Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T44</id>
+				<title>Users can use digits in the &quot;Email&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C26</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:47:58Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T41</id>
+				<title>Users can&apos;t Sign Up with empty &quot;Email&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C23</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:48:26Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T45</id>
+				<title>Users can&apos;t use Cyrillic letters in the [name] part of email.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C27</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T12:48:49Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T48</id>
+				<title>Users should use at least one capital letter.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C30</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																														<defects>YK-5</defects>
+																<changes>
+															<change>
+						<createdon>2022-10-24T13:02:27Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>The password field accepted input with no one capital Latin letter.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>YK-5</defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T49</id>
+				<title>Users should use at least one digit.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C31</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																														<defects>YK-6</defects>
+																<changes>
+															<change>
+						<createdon>2022-10-24T13:04:33Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>YK-6</defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T50</id>
+				<title>Users should use at least one special character.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C32</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																														<defects>YK-7</defects>
+																<changes>
+															<change>
+						<createdon>2022-10-24T13:07:41Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>The password field accepted input with no special characters.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>YK-7</defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T51</id>
+				<title>The password field should contain more than 7 accepted symbols.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C33</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																														<defects>YK-8</defects>
+																<changes>
+															<change>
+						<createdon>2022-10-24T13:10:36Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>The password field accepted input that is less than 8 symbols.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>YK-8</defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T46</id>
+				<title>Users can&apos;t Sign Up with empty field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C28</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T13:11:05Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T47</id>
+				<title>Users can&apos;t use non-printing symbols.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C29</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T13:11:33Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T52</id>
+				<title>The password field can&apos;t contain more than 30 accepted symbols.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C34</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T13:12:06Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>&quot;Sign up&quot; button</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T53</id>
+				<title>Users can Sign up in case all required fields are field out correctly.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C35</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T13:12:17Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T54</id>
+				<title>Users can&apos;t Sign Up if at least one required field is empty.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C36</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-24T13:12:23Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-24T12:27:44Z</createdon>
+																		<createdby>Yelyzaveta Kartashova</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+		<section>
+		<name>Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>user&apos;s avatar</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&apos;s name&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>My Posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Name of article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;User&apos;s page&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Favorite article&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Sign in&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Sign up&quot; link</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>&quot;Like&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Favorited Posts</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>User&apos;s Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>user&apos;s avatar</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;User&apos;s name&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Favorite article&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Body of article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;User&apos;s name&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Favorite article&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Sign in&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Sign up&quot; link</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Footer</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>User Logged In</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Your Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Popular Tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>New Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Article title&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Subtitle&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Body&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Tags&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Publish Article&quot; button</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Settings</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;URL of profile pic&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Username&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Body&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Update Settings&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Click here to log out&quot; button</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>User&apos;s Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User&apos;s avatar</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Edit Profile Settings&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>My posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Favorited posts</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Another user&apos;s Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>user&apos;s avatar</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>My posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Like&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;User&apos;s name&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Name of article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Read more&quot; link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article page</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;User&apos;s name&quot; link</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Follow user&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Favorite article&quot; button</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;write a comment&quot; field</name>
+		<description></description>
+									</section>
+		<section>
+		<name>&quot;Post comment&quot; button</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Footer</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+</run>
